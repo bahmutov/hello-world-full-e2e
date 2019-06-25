@@ -1,4 +1,4 @@
-# hello-world-full-e2e
+# hello-world-full-e2e [![CircleCI](https://circleci.com/gh/bahmutov/hello-world-full-e2e/tree/master.svg?style=svg)](https://circleci.com/gh/bahmutov/hello-world-full-e2e/tree/master)
 > Proof of concept collecting code coverage from the backend server while running Cypress e2e tests
 
 Read [Cypress Code Coverage guide](https://on.cypress.io/code-coverage)
