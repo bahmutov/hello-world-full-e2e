@@ -16,6 +16,6 @@ app.get('/hello', (req, res) => {
 
 // https://github.com/gotwarlost/istanbul/blob/master/ignoring-code-for-coverage.md
 /* istanbul ignore next */
-require('./coverage-middleware')(app)
+require('@cypress/code-coverage/middleware')(app)
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
