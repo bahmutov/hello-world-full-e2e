@@ -1,6 +1,8 @@
 # hello-world-full-e2e
 > Proof of concept collecting code coverage from the backend server while running Cypress e2e tests
 
+Read [Cypress Code Coverage guide](https://on.cypress.io/code-coverage)
+
 ## Backend coverage without API call
 
 If the end-to-end test does not call the API method
