@@ -3,6 +3,10 @@
 
 Read [Cypress Code Coverage guide](https://on.cypress.io/code-coverage)
 
+## Server code coverage
+
+If the "normal" server is started with just "node ./src/server.js", then to instrument the server code using [nyc](https://github.com/istanbuljs/nyc) is simply "nyc --silent node ./src/server.js".
+
 ## Backend coverage without API call
 
 If the end-to-end test does not call the API method
