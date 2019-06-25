@@ -4,7 +4,12 @@
   "description": "Proof of concept collecting code coverage from the backend server while running Cypress e2e tests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./src/server.js",
+    "start:coverage": "nyc --silent node ./src/server.js",
+    "report": "nyc report --reporter=html",
+    "cy:open": "cypress open",
+    "dev": "start-test start:coverage 3200 cy:open"
   },
   "repository": {
     "type": "git",

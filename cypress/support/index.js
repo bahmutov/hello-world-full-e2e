@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 after(() => {
   // grab the server code coverage only once after all tests
   cy.request('/__coverage__', { log: false })
